@@ -14,4 +14,6 @@ int main(){
     cin >> sold;
 
     cout << endl << "Ending stock: " << stock + purchased - sold;
+
+    return 0;
 }

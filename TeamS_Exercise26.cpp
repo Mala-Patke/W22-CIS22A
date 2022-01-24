@@ -13,4 +13,6 @@ int main(){
     cout << "Stock: $" << stocksPrice << endl;
     cout << "Commission: $" << commissionPrice << endl;
     cout << "Total: $" << total << endl;
+
+    return 0;
 }
