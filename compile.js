@@ -1,1 +1,1 @@
-require('child_process').execSync(`g++ ${process.argv[2]} -o ${process.argv[2].replace(".cpp", "")}`);
+require('child_process').execSync(`g++ ${process.argv[2]} -o ${process.argv[2].replace(".cpp", "")}${process.platform === 'darwin' ? '.app' : ''}`);
