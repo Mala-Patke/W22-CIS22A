@@ -1,0 +1,23 @@
+{
+  "name": "BegCPP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mala-Patke/W22-CIS22A.git"
+  },
+  "bin": {
+    "compile": "./bin/compile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mala-Patke/W22-CIS22A/issues"
+  },
+  "homepage": "https://github.com/Mala-Patke/W22-CIS22A#readme"
+}
