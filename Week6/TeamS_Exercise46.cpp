@@ -18,7 +18,7 @@ int main(){
         return 0;
     }
 
-    cout << "How many hours were used? " << endl;
+    cout << "How many hours were used? " << flush;
     cin >> hours;
     if(hours > 744) {
         cout << "The maximum number of hours is 744." << endl;
@@ -28,13 +28,17 @@ int main(){
     double res;
     switch(select) {
         case 1:
+            res = (hours - 10 > 0) ? 9.95 + 2 * (hours - 10) : 9.95;
             break;
         case 2: 
+            res = (hours - 20 > 0) ? 14.95 + (hours - 20) : 14.95;
             break;
         case 3: 
-            break;
-        default: 
+            res = 19.95;
+            break; 
     }
+
+    cout << fixed << setprecision(2) << "The total amount due is $" << res << endl;
     
     return 0;
 }
